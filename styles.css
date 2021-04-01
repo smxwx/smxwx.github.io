@@ -315,7 +315,6 @@ body{ /* Fondo de las demás páginas */
     margin-left: 1%;
     width: 10%;
     height: auto;
-    float: left;
 }
 
 .citas{ /* Ajutes del párrafo de "citas" en la página "Habitantes" */
