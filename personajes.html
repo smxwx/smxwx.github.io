@@ -13,20 +13,33 @@
         <header class="logo"> <!-- Encabezado y vinculo a la página de inicio --> 
             <h1> <a class="inicio" href="index.html"> Rapture </a> </h1> 
         </header>
-        <nav class="menu"> <!-- Menú que lleva a las diferentes páginas del sitio -->
-            <a class="mboton" href="ubicacion.html"> <img class="mboton1" src="Imagenes/Boton1.png">  </a> <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
-            <a class="mboton" href="personajes.html#characters"> <img class="mboton1" src="Imagenes/Boton2.png">  </a> <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
-            <a class="mboton" href="actividades.html"> <img class="mboton1" src="Imagenes/Boton3.png">  </a> <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
-            <a class="mboton" href="historia.html"> <img class="mboton1" src="Imagenes/Boton4.png">  </a> <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
-            <a class="mboton" href="referencias.html"> <img class="mboton1" src="Imagenes/Boton5.png">  </a> <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
+        <input class="check" type="checkbox" id="dropmenu2">
+        <label for="dropmenu2"> <img class="botoninicial" src="Imagenes/BotonMenu.png"> </label>
+        <nav class="menu3"> <!-- Menú que lleva a las diferentes páginas del sitio -->
+            <ul>
+              <li> <a class="mboton" href="ubicacion.html"> <img class="mboton1" src="Imagenes/Boton1.png">  </a> </li>   <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
+              <li> <a class="mboton" href="personajes.html#characters"> <img class="mboton1" src="Imagenes/Boton2.png">  </a> </li>   <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
+              <li> <a class="mboton" href="actividades.html"> <img class="mboton1" src="Imagenes/Boton3.png">  </a> </li>   <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
+              <li> <a class="mboton" href="historia.html"> <img class="mboton1" src="Imagenes/Boton4.png">  </a> </li>   <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
+              <li> <a class="mboton" href="referencias.html"> <img class="mboton1" src="Imagenes/Boton5.png">  </a> </li> <!-- Vinculo a otra página del sitio, haciendo uso de imagen -->
+            </ul>
         </nav>
         <div class="tab"> <!-- Sistema que divide la página en secciones y permite acceder a cada seccíon pulsando el botón, mientras que las otras se mantiene ocultas -->
-            <a class="personajes" href="#Tenenbaum"> Brigid Tenenbaum </a> <!-- Botón de sección -->
-            <a class="personajes" href="#Cohen"> Sander Cohen </a> <!-- Botón de sección -->
-            <a class="personajes" href="#Sinclair"> Augustus Sinclair </a> <!-- Botón de sección -->
-            <a class="personajes" href="#Andrew"> Andrew Ryan </a>    <!-- Botón de sección -->
-            <a class="personajes" href="#Lamb"> Sofia Lamb </a> <!-- Botón de sección -->
-            <a class="personajes" href="#Suchong"> Yi Suchong </a> <!-- Botón de sección -->
+            <input class="check" type="checkbox" id="dropmenu"> 
+            <label for="dropmenu" class="personajes1"> Habitantes </label>
+            <!-- la imagen del ícono se muestra como label del checkbox pero se oculta cuando no se necesita -->
+            <nav class="menu2">
+                <ul> <!-- los botones son elementos de una lista que define el menu pero mantiene el mismo diseño de cada botón, la posición de esta lista depende del estado del checkbox-->
+                    <li> <a class="personajes" href="#Tenenbaum"> Brigid Tenenbaum </a> </li> <!-- Botón de sección -->
+                    <li> <a class="personajes" href="#Cohen"> Sander Cohen </a> </li> <!-- Botón de sección -->
+                    <li> <a class="personajes" href="#Sinclair"> Augustus Sinclair </a> </li> <!-- Botón de sección -->
+                    <li> <a class="personajes" href="#Andrew"> Andrew Ryan </a> </li>   <!-- Botón de sección -->
+                    <li> <a class="personajes" href="#Lamb"> Sofia Lamb </a> </li> <!-- Botón de sección -->
+                    <li> <a class="personajes" href="#Suchong"> Yi Suchong </a> </li> <!-- Botón de sección -->
+                </ul>
+	        </nav>	
+
+
 
             <div id="characters" class="conttextos2">  <!-- Página que será mostrada al entrar usando el menú de navegación principal -->
                 <p class="centrar"> <img class="marco" src="Imagenes/Personajes.png">  </p> <!-- Imagen con bordes en estilo de "marco" -->

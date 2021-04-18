@@ -31,7 +31,7 @@ body{ /* Fondo de las demás páginas */
 }
 
 .inicio:link{ /* Estilo del vínculo del encabezado, cuando no ha sido visitado */
-    font-size: 60px;
+    font-size: 190%;
     font-family: Andes;
     font-weight: bold;
     text-shadow:4px 4px black;
@@ -40,7 +40,7 @@ body{ /* Fondo de las demás páginas */
 }
 
 .inicio:visited{ /* Estilo del vínculo del encabezado, cuando ya ha sido visitado */
-    font-size: 60px;
+    font-size: 190%;
     font-family: Andes;
     font-weight: bold;
     text-shadow:4px 4px black;
@@ -49,7 +49,7 @@ body{ /* Fondo de las demás páginas */
 }
 
 .inicio:hover{ /* Estilo del vínculo del encabezado, se pone el cursor encima */
-    font-size: 60px;
+    font-size: 190%;
     font-family: Andes;
     font-weight: bold;
     color:#00000000;
@@ -58,7 +58,7 @@ body{ /* Fondo de las demás páginas */
 }
 
 .inicio:active{ /* Estilo del vínculo del encabezado, cuando se mantiene clickeado el vínculo */
-    font-size: 60px;
+    font-size: 190%;
     font-family: Andes;
     font-weight: bold;
     color:#e4c06d;
@@ -89,7 +89,7 @@ body{ /* Fondo de las demás páginas */
 }
 
 .mboton{ /* Estilo de los botones del menú de navegación */
-    font-size: 60px;
+    font-size: 190%;
     font-family: Andes;
     font-weight: bold;
     text-shadow:4px 4px black;
@@ -128,7 +128,7 @@ body{ /* Fondo de las demás páginas */
 
 .introducción{ /* Estilo del párrafo flotante en la portada del sitio  */
     color: #d4b368;
-    font-size: 40px;
+    font-size: 250%;
     font-family: Anastasia Regular;
     border-color: #d4b46893;
     box-shadow: 7px 7px black;
@@ -154,7 +154,7 @@ body{ /* Fondo de las demás páginas */
     margin-left: 1%;
     color: black;
     font-family: Anastasia Regular;
-    font-size: 60px;
+    font-size: 370%;
 }
 
 .parrafo{ /* Estilo de los párrafos  */
@@ -163,6 +163,7 @@ body{ /* Fondo de las demás páginas */
     color: black;
     font-family: Plaza;
     font-size: 185%;
+    line-height: 1.4
 }
 
 .links:link{ /* Estilo de los vínculos cuando no se han visitado  */
@@ -253,10 +254,8 @@ body{ /* Fondo de las demás páginas */
 }
 
 .linksimg{ /* Estilo de vínculo que no lleva a ningún lugar, usado en la página "Ubicación", para resaltar una interacción */
-    font-style: italic;
-    text-decoration: none;
-    text-shadow: 1px 1px black;
-    color: #001a3b;
+    text-decoration: underline;
+    font-style: oblique;
 }
 
 .hide{ /* Estilo que oculta su contenido */
@@ -281,7 +280,7 @@ body{ /* Fondo de las demás páginas */
     margin-left: 1%;
     color: black;
     font-family: Anastasia Regular;
-    font-size: 45px;
+    font-size: 270%;
 }
 
 .floatimg{ /* Estilo de elemento a un costado, usado como "citas" para la página "Habitantes" */
@@ -326,7 +325,7 @@ body{ /* Fondo de las demás páginas */
     margin-left: 1%;
     color: black;
     font-family: Anastasia Regular;
-    font-size: 35px;
+    font-size: 220%;
 }
 
 .marco2{ /* Estilo utilizado en imágenes que no se ajustaban a la clase "marco", para dar un efecto de "marco" con los bordes */
@@ -350,12 +349,27 @@ body{ /* Fondo de las demás páginas */
     display: block;
 }
 
+.personajes1{ /* Estilo de los botones de las secciones de la página "Habitantes", cuando no han sido visitadas */
+    font-family: Andes;
+    text-decoration: none;
+    font-size: 200%;
+    margin-left: 7%;
+    margin-right: 3%;
+    padding: 5%;
+    color: #e4c06d;
+    border-color: #d4b46893;
+    background-image: url(Imagenes/rust1.jpg);
+    border-style: double;
+    text-shadow: 3px 3px black;
+}
+
 .personajes:link{ /* Estilo de los botones de las secciones de la página "Habitantes", cuando no han sido visitadas */
     font-family: Andes;
     text-decoration: none;
     font-size: 200%;
-    margin-left: 1%;
-    padding: 0.5%;
+    margin-left: 7%;
+    margin-right: 3%;
+    padding: 5%;
     color: #e4c06d;
     border-color: #d4b46893;
     background-image: url(Imagenes/rust1.jpg);
@@ -367,8 +381,9 @@ body{ /* Fondo de las demás páginas */
     font-family: Andes;
     text-decoration: none;
     font-size: 200%;
-    margin-left: 1%;
-    padding: 0.5%;
+    margin-left: 7%;
+    margin-right: 3%;
+    padding: 10%;
     color: #e4c06d;
     border-color: #d4b46893;
     background-image: url(Imagenes/rust1.jpg);
@@ -502,3 +517,463 @@ th{ /* Estilo de la fila de encabezados de la tabla */
 .menu1{ /* Estilo del menú de navegación interna de "Historia" */
     margin: 1%;
 }
+
+.check{
+    display: none; /* se muestra el checkbox cuando se reduce la ventana*/
+}
+
+label{
+    display: none; /* se muestra el checkbox cuando se reduce la ventana*/
+}
+
+
+.menu2 ul{
+    list-style: none;     /* para evitar los bullit list en la lista*/
+    display: flex;
+}
+
+.menu2 li{
+    font-size: 90%;
+    text-decoration: none; 
+}
+
+.menu2 li a {
+    display: block;
+    font-family: Andes;
+    text-decoration: none;
+    font-size: 80%;
+    color: #e4c06d;
+    border-color: #d4b46893;
+    background-image: url(Imagenes/rust1.jpg);
+    border-style: double;
+    text-shadow: 3px 3px black;
+}
+
+.menu2 li a:hover {
+    font-family: Andes;
+    text-decoration: none;
+    font-size: 200%;
+    color: #e4c06d;
+    border-color: #d4b46893;
+    box-shadow: 2px 2px black;
+    background-image: url(Imagenes/rust1.jpg);
+    border-style: double;
+    text-shadow: 3px 3px black;
+} 
+
+.menu3 ul{
+    list-style: none;     /* para evitar los bullit list en la lista*/
+    display: flex;
+}
+
+.menu3 li{
+    text-decoration: none; 
+}
+
+.menu3 li a {
+    display: block;
+}
+
+@media only screen and (max-width: 480px) {
+    .introducción{ /* Estilo del párrafo flotante en la portada del sitio  */
+        color: #d4b368;
+        font-size: 100%;
+        line-height: 150%;
+        font-family: Anastasia Regular;
+        border-color: #d4b46893;
+        box-shadow: 7px 7px black;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: solid;
+        font-weight: bold;
+        text-shadow:2px 2px black;
+        text-align: center;
+        margin-right:4% ;
+        padding: 5%;
+    }
+
+    .parrafo{ /* Estilo de los párrafos  */
+        margin-left: 1%;
+        margin-right: 1%;
+        color: black;
+        font-family: Plaza;
+        font-size: 150%;
+        line-height: 180%
+    }
+
+    .map{ /* Estilo de la imagen del mapa en la página "Ubicación"  */
+        width: 80%;
+        height: auto;
+    }
+    
+    .duo{ /* Estilo principal de las imágenes del sitio */
+        width: 45%;
+    }
+    
+    .duo:hover{ /* Estilo principal de las imágenes del sitio, al colocar el cursor encima */
+        width: 50%;
+    }
+    
+    .du1{ /* Estilo utilizado en imágenes más grandes */
+        width: 42%;
+    }
+    
+    .du1:hover{ /* Estilo utilizado en imágenes más grandes, al colocar el cursor encima */
+        width: 45%;
+    }
+     
+    .du2{ /* Estilo utilizado en imágenes más grandes */
+        width: 30%;
+    }
+    
+    .du2:hover{ /* Estilo utilizado en imágenes más grandes, al colocar el cursor encima */
+        width: 50%;
+    }
+    
+    .du3{ /* Estilo utilizado en imágenes más grandes */
+        width: 24%;
+        margin-left: 1%;
+    }
+    
+    .du3:hover{ /* Estilo utilizado en imágenes más grandes, al colocar el cursor encima */
+        width: 30%;
+    }
+    
+    .du4{ /* Estilo utilizado en imágenes más grandes */
+        width: 60%;
+        margin-left: 1%;
+    }
+    
+    .du4:hover{ /* Estilo utilizado en imágenes más grandes, al colocar el cursor encima */
+        width: 65%;
+    }
+
+    .titulos{ /* Estilo de los títulos  */
+        padding-top: 1%;
+        margin-left: 1%;
+        margin-right: 1%;
+        color: black;
+        font-family: Anastasia Regular;
+        font-size: 250%;
+    }
+
+    .links:link{ /* Estilo de los vínculos cuando no se han visitado  */
+        font-style: normal;
+        text-decoration: none;
+        color: #113c74;
+    }
+    
+    .links:visited{ /* Estilo de los vínculos cuando ya se han visitado  */
+        font-style: normal;
+        text-decoration: none;
+        color: #113c74;
+    }
+    
+    
+    .links:hover{ /* Estilo de los vínculos cuando se coloca el cursor encima */
+        font-style: normal;
+        text-decoration: none;
+        color: #000000;
+    }
+
+    .tabla, td{ /* Estilo de la tabla */
+        background-image: url(Imagenes/fondo.png);
+        border-style: solid;
+        border-color: #d4b368;
+        border-width: 10%;
+        margin-top: 1%;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left: 1%;
+        margin-right: 1%;
+        color: black;
+        font-family: Plaza;
+        font-size: 100%;
+        line-height: 150%;
+    }
+    
+    th{ /* Estilo de la fila de encabezados de la tabla */
+        background-color: #d4b368;
+        border-style: solid;
+        border-color: #917b47;
+        border-width: 10px;
+        margin-top: 1%;
+        border-collapse: collapse;
+        text-align: center;
+        margin-left: 1%;
+        margin-right: 1%;
+        color: black;
+        font-family: Plaza;
+        font-size: 100%;
+    }
+    .imgt{ /* Estilo de las imagenes de la tabla */
+        width: 80%;
+    }
+    
+    .imgt:hover{ /* Estilo de las imagenes de la tabla, al colocar el cursor encima */
+        width: 100%;
+    }
+
+    .floatimg2{ /* Estilo de párrafo centrado, usado como "cita" para la página "Historia" */
+        margin: auto;
+        width: 80%;
+        vertical-align: middle;
+        color: #d4b368;
+        border-color: #d4b46893;
+        box-shadow: 2px 2px black;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+    .floatimg{ /* Estilo de elemento a un costado, usado como "citas" para la página "Habitantes" */
+        margin-left: 1%;
+        padding-left: 1%;
+        padding-right: 1%;
+        width: 80%;
+        display: inline-block;
+        color: #d4b368;
+        border-color: #d4b46893;
+        box-shadow: 2px 2px black;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+
+    .imboton{ /* Estilo de los botones superiores del menú de navegación interna de "Historia" */
+        width: 15%;
+        height: auto;
+        opacity: 1;
+        text-decoration: none;
+        margin-right: 1%;
+    }
+    
+    .imboton:hover{ /* Estilo de los botones superiores del menú de navegación interna de "Historia", al colocar el cursor encima */
+        transform: translateY(20%);
+        width: 15%;
+        height: auto;
+        opacity: 1;
+    }
+    
+    
+    .imboton2{ /* Estilo de los botones inferiores del menú de navegación interna de "Historia" */
+        width: 15%;
+        height: auto;
+        opacity: 1;
+        text-decoration: none;
+        margin: 1%;
+    }
+    
+    .imboton2:hover{ /* Estilo de los botones inferiores del menú de navegación interna de "Historia", al colocar el cursor encima */
+        transform: translateY(-20%);
+        width: 15%;
+        height: auto;
+        opacity: 1;
+    }
+    
+    .imboton3{ /* Estilo de un boton superior del menú de navegación interna de "Historia", que no se ajustaba bien */
+        width: 22%;
+        height: auto;
+        opacity: 1;
+        text-decoration: none;
+        margin: 1%;
+    }
+    
+    .imboton3:hover{ /* Estilo de un boton superior del menú de navegación interna de "Historia", que no se ajustaba bien, al colocar el cursor encima */
+        transform: translateY(20%);
+        width: 22%;
+        height: auto;
+        opacity: 1;
+    }
+    
+    .imboton4{ /* Estilo de un boton inferior del menú de navegación interna de "Historia", que no se ajustaba bien */
+        width: 22%;
+        height: auto;
+        opacity: 1;
+        text-decoration: none;
+        margin: 1%;
+    }
+    
+    .imboton4:hover{ /* Estilo de un boton inferior del menú de navegación interna de "Historia", que no se ajustaba bien, al colocar el cursor encima */
+        transform: translateY(-20%);
+        width: 22%;
+        height: auto;
+        opacity: 1;
+    }
+
+    .citas{ /* Ajutes del párrafo de "citas" en la página "Habitantes" */
+        margin-left: 1%;
+        font-size: 120%;
+        line-height: 150%;
+        font-style: italic;
+    }
+    
+    .subtitulos{ /* Estilo de los subtítulos */
+        padding-top: 1%;
+        margin-left: 1%;
+        color: black;
+        font-family: Anastasia Regular;
+        font-size: 200%;
+    }
+
+    .subsubtitulos{ /* Estilo de los subtítulos menores (más pequeños) */
+        margin-left: 1%;
+        color: black;
+        font-family: Anastasia Regular;
+        font-size: 180%;
+    }
+
+    .marco2{ /* Estilo utilizado en imágenes que no se ajustaban a la clase "marco", para dar un efecto de "marco" con los bordes */
+        border-style: double;
+        border-color: #806c3f;
+        border-width: 20px;
+        width: 40%;
+        margin-bottom: 1%;
+        background-color: #493c1c;
+    }
+
+    .retratos{ /* Estilo de imagen de los retratos, para la página "Habitantes" */
+        margin-left: 1%;
+        width: 30%;
+        height: auto;
+    }
+
+    label{
+        display: block; /* se muestra el checkbox cuando se reduce la ventana*/
+    }
+
+    .menu2 {
+        position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
+        background: #d4b46857; /* rojo, verde, azul, alpha (transparencia) */
+		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+        width: 35%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: 200%; /* se oculta porque se coloca por fuera de la ventana*/
+		margin-top: 1%;
+        transition: all 1s;
+        direction: rtl;   /* la animación de desplegar el menu dura 1 segundo*/
+    } 
+    .menu2 ul {
+        flex-direction: column;  /* se despliega en sentido vertical*/
+    } 
+    .menu2 li {
+        margin-right: 5%;
+    }
+
+    #dropmenu:checked ~ .menu2 {  /* el checkbox controla las dos posiciones del menu */
+        margin: 1%;
+    }
+
+    .personajes:link{ /* Estilo de los botones de las secciones de la página "Habitantes", cuando no han sido visitadas */
+        font-family: Andes;
+        text-decoration: none;
+        font-size: 120%;
+        margin-left: 1%;
+        margin-right: 1%;
+        padding: 5%;
+        color: #e4c06d;
+        border-color: #d4b46893;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+    .personajes:visited{ /* Estilo de los botones de las secciones de la página "Habitantes", cuando ya han sido visitadas */
+        font-family: Andes;
+        text-decoration: none;
+        font-size: 120%;
+        margin-left: 7%;
+        margin-right: 3%;
+        padding: 5%;
+        color: #e4c06d;
+        border-color: #d4b46893;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+    
+    .personajes:hover{ /* Estilo de los botones de las secciones de la página "Habitantes", cuando se coloca el cursor encima */
+        font-family: Andes;
+        text-decoration: none;
+        font-size: 20%;
+        padding:2%;
+        color: #e4c06d;
+        border-color: #d4b46893;
+        box-shadow: 2px 2px black;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+
+    .personajes1{ /* Estilo de los botones de las secciones de la página "Habitantes", cuando no han sido visitadas */
+        font-family: Andes;
+        text-decoration: none;
+        text-align: center;
+        font-size: 150%;
+        margin-left: 3%;
+        margin-right: 3%;
+        padding: 2%;
+        color: #e4c06d;
+        border-color: #d4b46893;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+
+    .menu2 li a:hover {
+        font-family: Andes;
+        text-decoration: none;
+        font-size: 130%;
+        color: #e4c06d;
+        border-color: #d4b46893;
+        box-shadow: 2px 2px black;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: double;
+        text-shadow: 3px 3px black;
+    }
+
+    .logo{ /* Estilo del encabezado */
+        border-color: #d4b46893;
+        box-shadow: 5px 5px black;
+        background-image: url(Imagenes/rust1.jpg);
+        border-style: solid;
+        text-align: center;
+        margin-bottom: 2%;
+        border-radius:20% ;
+    }
+
+    .botoninicial{
+        width: 30%;
+        margin-left: 5%;
+    }
+
+    .menu3 {
+        position: fixed;  /* sostiene la posición aunque se haga scroll en el contenido */
+        background: #266ba086; /* rojo, verde, azul, alpha (transparencia) */
+		z-index: 30; /* para asegurar que el menu esta por encima de todo lo demás*/
+        width: 35%; /* se refiere al ancho del fondo del menu y no a los botones */
+        margin-left: -200%; /* se oculta porque se coloca por fuera de la ventana*/
+		margin-top: 1%;
+        transition: all 1s;
+    } 
+    .menu3 ul {
+        flex-direction: column;  /* se despliega en sentido vertical*/
+    } 
+    .menu3 li {
+        margin-right: 50%;
+    }
+
+    #dropmenu2:checked ~ .menu3 {  /* el checkbox controla las dos posiciones del menu */
+        margin: 1%;
+    }
+    
+    .mboton1{ /* Estilo de la imagen de los botones del menú de navegación */
+        width: 170%;
+        height: auto;
+        opacity: 1;
+        margin: 1%;
+    }
+    
+    .mboton1:hover{ /* Estilo de la imagen de los botones del menú de navegación, cuando se pone el cursor encima */
+        transform: translateX(15%);
+        width: 170%;
+        height: auto;
+        opacity: 1;
+    }
+  }
