@@ -1337,7 +1337,7 @@ label{ /* Ocultar label del checkbox */
     .menu3 { /* Menú principal */
         position: fixed;
         background: #266ba086;
-		z-index: 30;
+		z-index: 50;
         width: 20%;
         margin-left: -200%;
 		margin-top: 1%;
@@ -1798,7 +1798,7 @@ label{ /* Ocultar label del checkbox */
     .menu3 { /* Estilo del menú principal desplegable*/
         position: fixed;
         background: #266ba086;
-		z-index: 30;
+		z-index: 50;
         width: 35%;
         margin-left: -200%;
 		margin-top: 1%;
