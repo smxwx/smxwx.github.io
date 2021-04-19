@@ -1236,12 +1236,11 @@ label{ /* Ocultar label del checkbox */
         background: #d4b468dc;
 		z-index: 30;
         width: 35%;
-        margin-left: 200%;
+        margin-left: -200%;
         padding-left: 5%;
         padding-right: 58%;
 		margin-top: 1%;
         transition: all 1s;
-        direction: rtl; /* Animación de derecha a izquierda */
     } 
     .menu2 ul { /* Despliegue */
         flex-direction: column;
@@ -1700,10 +1699,9 @@ label{ /* Ocultar label del checkbox */
 		z-index: 30;
         width: 35%;
         padding-right: 58%;
-        margin-left: 200%;
+        margin-left: -200%;
 		margin-top: 1%;
         transition: all 1s;
-        direction: rtl; /* Animación de derecha a izquierda */
     } 
     .menu2 ul { /* Despliegue de la lista */
         flex-direction: column;  /* se despliega en sentido vertical*/
