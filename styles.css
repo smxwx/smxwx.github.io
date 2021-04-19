@@ -1232,11 +1232,13 @@ label{ /* Ocultar label del checkbox */
     }
 
     .menu2{ /* Menú de la página habitantes */
-        position: fixed;
-        background: #d4b46857;
+        position: relative;
+        background: #d4b468dc;
 		z-index: 30;
         width: 35%;
         margin-left: 200%;
+        padding-left: 5%;
+        padding-right: 58%;
 		margin-top: 1%;
         transition: all 1s;
         direction: rtl; /* Animación de derecha a izquierda */
@@ -1693,10 +1695,11 @@ label{ /* Ocultar label del checkbox */
     }
 
     .menu2 { /* Estilo del menú desplegable de la página Habitantes*/
-        position: fixed;
-        background: #d4b46857;
+        position: relative;
+        background: #d4b468dc;
 		z-index: 30;
         width: 35%;
+        padding-right: 58%;
         margin-left: 200%;
 		margin-top: 1%;
         transition: all 1s;
