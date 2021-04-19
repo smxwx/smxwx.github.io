@@ -1338,26 +1338,26 @@ label{ /* Ocultar label del checkbox */
 
     .menu3 { /* Menú principal */
         position: fixed;
-        background: #266ba086;
+        background: #113c74b2;
 		z-index: 50;
-        width: 20%;
+        width: 100%;
         margin-left: -200%;
 		margin-top: 1%;
         transition: all 1s;
     } 
     .menu3 ul { /* Despliegue */
-        flex-direction: column;  /* se despliega en sentido vertical*/
+        flex-direction: row;  /* se despliega en sentido vertical*/
     } 
     .menu3 li { /* Elementos del menú */
-        margin-right: 45%;
+        margin-right: 10%;
     }
 
     #dropmenu2:checked ~ .menu3 {  /* Activación */
-        margin: 1%;
+        margin: 0%;
     }
     
     .mboton1{ /* Estilo de la imagen de los botones del menú de navegación */
-        width: 180%;
+        width: 200%;
         height: auto;
         opacity: 1;
         margin: 1%;
@@ -1800,34 +1800,34 @@ label{ /* Ocultar label del checkbox */
 
     .menu3 { /* Estilo del menú principal desplegable*/
         position: fixed;
-        background: #266ba086;
+        background: #113c74b2;
 		z-index: 50;
-        width: 35%;
+        width: 100%;
         margin-left: -200%;
 		margin-top: 1%;
         transition: all 1s;
     } 
     .menu3 ul { /* Despliegue de la lista */
-        flex-direction: column;  /* se despliega en sentido vertical*/
+        flex-direction: row;  /* se despliega en sentido vertical*/
     } 
     .menu3 li { /* Botones del menú */
-        margin-right: 50%;
+        margin-right: 10%;
     }
 
     #dropmenu2:checked ~ .menu3 {  /* Activación del checkbox */
-        margin: 1%;
+        margin: 0%;
     }
     
     .mboton1{ /* Estilo de la imagen de los botones del menú de navegación */
-        width: 170%;
+        width: 200%;
         height: auto;
         opacity: 1;
         margin: 1%;
     }
     
     .mboton1:hover{ /* Estilo de la imagen de los botones del menú de navegación, cuando se pone el cursor encima */
-        transform: translateX(15%);
-        width: 170%;
+        transform: translateX(8%);
+        width: 200%;
         height: auto;
         opacity: 1;
     }
