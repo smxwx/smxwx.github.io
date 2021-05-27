@@ -1356,15 +1356,15 @@ label{ /* Ocultar label del checkbox */
     }
     
     .mboton1{ /* Estilo de la imagen de los botones del menú de navegación */
-        width: 205%;
+        width: 270%;
         height: auto;
         opacity: 1;
         margin: 1%;
     }
     
     .mboton1:hover{ /* Estilo de la imagen de los botones del menú de navegación, cuando se pone el cursor encima */
-        transform: translateX(6%);
-        width: 205%;
+        transform: translateX(4%);
+        width: 270%;
         height: auto;
         opacity: 1;
     }
@@ -1817,15 +1817,15 @@ label{ /* Ocultar label del checkbox */
     }
     
     .mboton1{ /* Estilo de la imagen de los botones del menú de navegación */
-        width: 205%;
+        width: 270%;
         height: auto;
         opacity: 1;
         margin: 1%;
     }
     
     .mboton1:hover{ /* Estilo de la imagen de los botones del menú de navegación, cuando se pone el cursor encima */
-        transform: translateX(6%);
-        width: 205%;
+        transform: translateX(4%);
+        width: 270%;
         height: auto;
         opacity: 1;
     }
