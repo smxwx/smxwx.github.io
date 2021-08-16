@@ -157,14 +157,14 @@ body{ /* Fondo de las demás páginas */
 }
 
 .mapaimg{ /* Estilo de la imagen que lleva al mapa interactivo */
-    width: 50%;
+    width: 80%;
     height: auto;
     opacity: 0.7;
     margin: 1%;
 }
 
 .mapaimg:hover{ /* Estilo de la imagen que lleva al mapa interactivo, cuando se pone el cursor encima */
-    width: 50%;
+    width: 80%;
     height: auto;
     opacity: 1;
 }
