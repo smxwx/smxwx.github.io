@@ -156,6 +156,19 @@ body{ /* Fondo de las demás páginas */
     margin-top: 1%;
 }
 
+.mapaimg{ /* Estilo de la imagen que lleva al mapa interactivo */
+    width: 30%;
+    height: auto;
+    opacity: 0.7;
+    margin: 1%;
+}
+
+.mapaimg:hover{ /* Estilo de la imagen que lleva al mapa interactivo, cuando se pone el cursor encima */
+    width: 30%;
+    height: auto;
+    opacity: 1;
+}
+
 .titulos{ /* Estilo de los títulos  */
     padding-top: 1%;
     margin-left: 1%;
