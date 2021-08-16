@@ -16,7 +16,7 @@
 
 .interactive-image { /* Estilo de la escena del mapa*/
     margin: auto;
-    width: 50%;
+    width: 100%;
     height: 1200px;
     background-image: url(../Imagenes/Mapa_Rapture.jpg);
     background-repeat:repeat-y;width: 800px
