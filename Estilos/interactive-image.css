@@ -199,6 +199,7 @@
     display: block;
     margin-top: 5%;
     margin-bottom: -2%;
+    font-size: 140%;
   }
 
   .interactive-image .audio-item audio { /* Estilo del reproductor en los elementos de audio */
@@ -226,7 +227,7 @@
     bottom: 0;
     left: 0;
     text-align: center;
-    font-size: 100%;
+    font-size: 120%;
     pointer-events: none;
   }
 
@@ -270,7 +271,7 @@
 
   .interactive-image .text-item .description { /* Estilo de la descripción en los elementos de texto */
     text-align: left;
-    font-size: 80%;
+    font-size: 140%;
     font-weight: normal;
     margin-top: 5%;
     margin-bottom: 0;
@@ -314,6 +315,7 @@
     display: block;
     margin-top: 5%;
     margin-bottom: -2%;
+    font-size: 140%;
   }
 
   .interactive-image .video-item video { /* Estilo del reproductor de los elementos de video */
