@@ -240,11 +240,11 @@
     margin-bottom: -2%;
   }
 
-.interactive-image .provider-item {
+.interactive-image .provider-item { /* Estilo de los elementos de fuentes externas */
   padding: 2%;
 }
 
-  .interactive-image .provider-item iframe {
+  .interactive-image .provider-item iframe { /* Estilo de los elementos de fuentes externas */
     width: 80%;
     height: 40%;
     margin-bottom: -2%;
@@ -252,12 +252,12 @@
   }
 
 
-.interactive-image .text-item {
+.interactive-image .text-item { /* Estilo de los elementos de texto */
   padding: 20px;
-  max-width: 300px;
+  max-width: 400px;
 }
 
-  .interactive-image .text-item .title{
+  .interactive-image .text-item .title{ /* Estilo de los titulos de los elementos de texto */
     font-size: 120%;
     width: 100%;
     text-align: left;
@@ -268,64 +268,61 @@
     color: #d4b368;
   }
 
-  .interactive-image .text-item .description {
+  .interactive-image .text-item .description { /* Estilo de la descripción en los elementos de texto */
     text-align: left;
-    font-size: 80%;
+    font-size: 100%;
     font-weight: normal;
     margin-top: 5%;
     margin-bottom: 0;
     font-style: italic;
   }
 
-  .interactive-image .text-item .picture {
+  .interactive-image .text-item .picture { /* Estilo de las imagebes en los elementos de texto */
     max-width: 100%;
     max-height: 100%;
     margin-top: 5%;
   }
 
-  .interactive-image .text-item a {
+  .interactive-image .text-item a { /* Estilo de los links en los elementos de texto */
     font-style: bold;
     text-decoration: none;
     text-shadow: 1px 1px black;
     color: #f8d37b;
   }
 
-    .interactive-image .text-item a:visited {
+    .interactive-image .text-item a:visited { /* Estilo de los links visitados en los elementos de texto */
       color: #a38a4f2c;
     }
 
-    .interactive-image .text-item a:hover {
+    .interactive-image .text-item a:hover { /* Estilo de los links al tener el cursor encima en los elementos de texto */
       color: #d4b368;
       text-shadow: 4px 4px black;
     }
 
-    .interactive-image .text-item a:active {
+    .interactive-image .text-item a:active { /* Estilo de los links al mantenerlos clickaeados en los elementos de texto */
       color: #d4b368;
       text-shadow: 4px 4px black;
     }
 
-.interactive-image .video-item {
+.interactive-image .video-item { /* Estilo de los elementos de video */
   max-width: 480px;
   padding: 5%;
   text-align: center; 
 }
 
-  .interactive-image .video-item .caption {
+  .interactive-image .video-item .caption { /* Estilo de la descripción en los elementos de video */
     display: block;
     margin-top: 5%;
     margin-bottom: -2%;
   }
 
-  .interactive-image .video-item video {
+  .interactive-image .video-item video { /* Estilo del reproductor de los elementos de video */
     width: 60%;
     height: 60%;
     margin-bottom: -2%;
     object-fit: fill;
   }
 
-    .interactive-image .video-item video:focus {
+    .interactive-image .video-item video:focus { /* Estilo de los elementos de video */
       outline: none;
     }
-
-
-/*# sourceMappingURL=interactive-image.css.map*/
