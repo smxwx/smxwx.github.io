@@ -9,7 +9,7 @@
                 left: 420,
                 top: 160
             },
-            picturePath: "../Imagenes/Optimized_Eugenics.png", //Imagen
+            picturePath: "Imagenes/Optimized_Eugenics.png", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -21,7 +21,7 @@
                 left: 240,
                 top: 748
             },
-            picturePath: "../Imagenes/Neptune.png", //Imagen
+            picturePath: "Imagenes/Neptune.png", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -44,7 +44,7 @@
                 left: 466,
                 top: 748
             },
-            picturePath: "../Imagenes/Arcadia.png", //Imagen
+            picturePath: "Imagenes/Arcadia.png", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -56,7 +56,7 @@
                 left: 240,
                 top: 998
             },
-            picturePath: "../Imagenes/Hephaestus.jpg", //Imagen
+            picturePath: "Imagenes/Hephaestus.jpg", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -68,7 +68,7 @@
                 left: 699,
                 top: 737
             },
-            picturePath: "../Imagenes/Fontaine_Futuristics.jpg", //Imagen
+            picturePath: "Imagenes/Fontaine_Futuristics.jpg", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -80,14 +80,14 @@
                 left: 208,
                 top: 1050
             },
-            picturePath: "../Imagenes/Fontaine.png", //Imagen
+            picturePath: "Imagenes/Fontaine.png", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
         {
             type: "text", //Tipo del contenido
             title: "Pauper's Drop", //Titulo
-            description: " Era originalmente el Puesto de Mantenimiento 17 del ferrocarril Atlantic Express, y se convirtió en alojamiento para los trabajadores y sus familias una vez finalizada la construcción de la red ferroviaria.", //Descripcion
+            description: "Era originalmente el Puesto de Mantenimiento 17 del ferrocarril Atlantic Express, y se convirtió en alojamiento para los trabajadores y sus familias una vez finalizada la construcción de la red ferroviaria.", //Descripcion
             position: { //Posición en el mapa
                 left: 408,
                 top: 868
@@ -103,7 +103,7 @@
                 left: 175,
                 top: 994
             },
-            picturePath: "../Imagenes/Minerva.jpg", //Imagen
+            picturePath: "Imagenes/Minerva.jpg", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -115,7 +115,7 @@
                 left: 105,
                 top: 868
             },
-            picturePath: "../Imagenes/Atlantic.jpg", //Imagen
+            picturePath: "Imagenes/Atlantic.jpg", //Imagen
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
@@ -123,7 +123,7 @@
         // Contenido de imagenes con leyenda.
         {
             type: "picture", //Tipo del contenido
-            path: "../Imagenes/Entrada.png", //Imagen
+            path: "Imagenes/Entrada.png", //Imagen
             caption: "El Centro de Bienvenida es la puerta de entrada a una nueva vida en Rapture.", //Descripcion
             position: { //Posición en el mapa
                 left: 393,
@@ -134,7 +134,7 @@
 
         {
             type: "picture", //Tipo del contenido
-            path: "../Imagenes/Dionysus.png", //Imagen
+            path: "Imagenes/Dionysus.png", //Imagen
             caption: "El Parque de Dionisio es un refugio seguro en el que todos los artistas pueden presentar sus obras sin restricciones.", //Descripcion
             position: { //Posición en el mapa
                 left: 543,
@@ -145,7 +145,7 @@
 
         {
             type: "picture", //Tipo del contenido
-            path: "../Imagenes/High.png", //Imagen
+            path: "Imagenes/High.png", //Imagen
             caption: "Mientras que Fort Frolic era el centro de arte y entretenimiento de la ciudad, High Street se estableció para el comercio de ocio.", //Descripcion
             position: { //Posición en el mapa
                 left: 362,
@@ -157,7 +157,7 @@
         // Contenido de audio con descripción.
         {
             type: "audio", //Tipo del contenido
-            path: "../Multimedia/Cohens_Masterpiece.mp3",
+            path: "Multimedia/Cohens_Masterpiece.mp3",
             caption: "Toda sociedad, incluso la que se encuentra en el fondo del Océano Atlántico, necesita un lugar para relajarse: un lugar donde los adultos puedan darse un capricho con un par de copas, gastar en un día de compras, asistir a un espectáculo o probar suerte en un casino. En Rapture, uno de esos lugares es Fort Frolic. Decorado con luces de neón, columnas de antorchas y azulejos en forma de tablero de ajedrez, es un entorno glamuroso que ofrece desde las bellas artes, como la música, el cine y el teatro, hasta las distracciones más salaces, como los clubes de striptease y el juego. También es un destino de compras, con muchas boutiques que venden desde la ropa más lujosa hasta tabaco y licor.", //Descripcion
             position: { //Posición en el mapa
                 left: 635,
@@ -168,7 +168,7 @@
 
         {
             type: "audio", //Tipo del contenido
-            path: "../Multimedia/The_Ocean.mp3",
+            path: "Multimedia/The_Ocean.mp3",
             caption: "El ala de exposiciones especiales Fontaine del Museo Conmemorativo muestra las mejores exposiciones que ofrece el museo.", //Descripcion
             position: { //Posición en el mapa
                 left: 651,
@@ -180,7 +180,7 @@
         // Contenido de video con descripción.
         {
             type: "video", //Tipo del contenido
-            path: "../Multimedia/The_Lighthouse.mp4",
+            path: "Multimedia/The_Lighthouse.mp4",
             caption: "El faro es una torre de navegación que se levanta en una pequeña isla rocosa situada aproximadamente a 63° N, 32° W en medio del Océano Atlántico. La estructura monolítica tiene más de cinco pisos de altura y está diseñada con una serie de retranqueos decorados con relieves geométricos que recrean un rascacielos de estilo Art Decó. En el vértice del faro se alza una imponente estatua alada de estilo Art Decó que sostiene el emisor de luz de la torre. La figura también se utiliza habitualmente como símbolo de la ciudad de Rapture y está representada en sus diversas artes y decoraciones.", //Descripcion
             position: { //Posición en el mapa
                 left: 191,
@@ -191,7 +191,7 @@
 
         {
             type: "video", //Tipo del contenido
-            path: "../Multimedia/Market.mp4",
+            path: "Multimedia/Market.mp4",
             caption: "Market Street sirve como paseo recreativo y residencial. La zona atiende a los ciudadanos de clase media y alta de Rapture como un centro donde pueden cenar y vivir con estilo. Con sus espectaculares vistas al mar, Market Street es un verdadero escaparate del mejor diseño de Rapture.", //Descripcion
             position: { //Posición en el mapa
                 left: 466,
@@ -202,7 +202,7 @@
 
         {
             type: "video", //Tipo del contenido
-            path: "../Multimedia/Tour.mp4",
+            path: "Multimedia/Tour.mp4",
             caption: "Ryan Amusements es un parque temático destinado a enseñar la filosofía de Andrew Ryan a los jóvenes de Rapture. Además de la atracción, Ryan Amusements cuenta con el Museo de Rapture, dedicado a la fundación de la ciudad, el Salón del Futuro, donde se hacen demostraciones de plásmidos y se venden a los visitantes, el Salón El Dorado, donde pueden reponerse mientras disfrutan de un espectáculo, y una tienda de regalos. También se ofrecen tonicos genéticos promocionales a los visitantes en la entrada del parque.", //Descripcion
             position: { //Posición en el mapa
                 left: 225,
