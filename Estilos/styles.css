@@ -14,7 +14,7 @@
     src: url(../Fuentes/Plaza.ttf);
 }
 
-.interactive-image { /* Estilo de la escena del mapa*/
+.interactive-image { /* Estilo de la escena del mapa interactivo*/
     margin: auto;
     width: 100%;
     height: 1200px;
