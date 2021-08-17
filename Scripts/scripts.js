@@ -107,19 +107,6 @@
             sticky: true //Se mantiene abierto hasta que se presione la "X"
         },
 
-        {
-            type: "text", //Tipo del contenido
-            title: "Atlantic Express Depot", //Titulo
-            description: "El Depósito del Expreso del Atlántico, también conocido como Depósito de Mantenimiento, es el centro principal y la administración del ferrocarril del Expreso del Atlántico, y contiene las instalaciones de fabricación y reparación de trenes del sistema ferroviario.", //Descripcion
-            position: { //Posición en el mapa
-                left: 105,
-                top: 868
-            },
-            picturePath: "Imagenes/Atlantic.jpg", //Imagen
-            sticky: true //Se mantiene abierto hasta que se presione la "X"
-        },
-
-
         // Contenido de imagenes con leyenda.
         {
             type: "picture", //Tipo del contenido
