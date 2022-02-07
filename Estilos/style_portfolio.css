@@ -549,6 +549,7 @@ label{ /* Ocultar label del checkbox */
 .menu2 ul{ /* Estilo del menú (de la página habitantes) en lista */
     list-style: none;
     display: flex;
+    margin-right: 5%;
 }
 
 .menu2 li{ /* Estilo de los elementos de la lista del menú */
