@@ -14,14 +14,16 @@
         <div id='h5p-container'></div>
         
         <script>
-            import { H5P } from 'h5p-standalone';
-            const el = document.getElementById('h5p-container');
-            const options = {
-            h5pJsonPath:  '/programacion_de_computadores',
-            frameJs: '/assets/frame.bundle.js',
-            frameCss: '/assets/styles/h5p.css',
-            }
-            new H5PStandalone.H5P(el, options);
+    const {
+      H5P
+    } = H5PStandalone;
+    
+      new H5P(document.getElementById('h5p-container'),  {
+      h5pJsonPath: '/programacion_de_computadores',
+      frameJs: '/assets/frame.bundle.js',
+      frameCss: '/assets/styles/h5p.css'
+      });
+      
         </script>
     </body>
 </html>
