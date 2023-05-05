@@ -8,6 +8,11 @@
         <meta name="HandheldFriendly" content="true">
         <script type="text/javascript" src="assets/main.bundle.js"></script>
         
+    </head>
+    <body>
+        <p> Test </p>
+        <div id='h5p-container'></div>
+        
         <script>
             import { H5P } from 'h5p-standalone';
             const el = document.getElementById('h5p-container');
@@ -18,10 +23,5 @@
             }
             new H5PStandalone.H5P(el, options);
         </script>
-        
-    </head>
-    <body>
-        <p> Test </p>
-        <div id='h5p-container'></div>
     </body>
 </html>
