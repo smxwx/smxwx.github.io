@@ -1,6 +1,6 @@
 const el = document.getElementById('h5p-container');
 const options = {
-  h5pJsonPath:  '/h5p-folder',
+  h5pJsonPath:  '/programacion_de_computadores',
   frameJs: '/assets/frame.bundle.js',
   frameCss: '/assets/styles/h5p.css',
 }
